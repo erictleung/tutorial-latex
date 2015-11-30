@@ -9,4 +9,4 @@ clean:
 
 # Compiles tutorial guide
 %.pdf: %.md
-	pandoc -t latex -s $< -o $@
+	pandoc -t latex --smart --latex-engine=pdflatex -s $< -o $@
