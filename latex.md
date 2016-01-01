@@ -12,3 +12,15 @@ author: Eric Leung
 - Tables
 - Importing graphics
 - Bibliographies
+
+## Document Structure
+
+Minimal \LaTeX example
+
+```
+\documentclass{article}
+
+\begin{document}
+Hello World.
+\end{document}
+```
